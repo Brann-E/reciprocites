@@ -1,0 +1,123 @@
+[
+  {
+    "id": "personnes",
+    "nom": "Personnes",
+    "types": [
+      { "id": "citoyen", "titre": "Citoyen·ne" },
+      { "id": "habitant", "titre": "Habitant·e" },
+      { "id": "benevole", "titre": "Bénévole" },
+      { "id": "militant", "titre": "Militant·e" },
+      { "id": "usager", "titre": "Usager·ère, bénéficiaire" },
+      { "id": "independant", "titre": "Indépendant·e, freelance" },
+      { "id": "artiste", "titre": "Artiste, auteur·rice" },
+      { "id": "artisan", "titre": "Artisan·e" },
+      { "id": "commercant", "titre": "Commerçant·e" },
+      { "id": "agriculteur", "titre": "Agriculteur·rice" },
+      { "id": "liberal", "titre": "Profession libérale" },
+      { "id": "expert", "titre": "Expert·e, consultant·e" },
+      { "id": "chercheur", "titre": "Chercheur·se" },
+      { "id": "enseignant", "titre": "Enseignant·e" },
+      { "id": "etudiant", "titre": "Étudiant·e" },
+      { "id": "salarie", "titre": "Salarié·e" },
+      { "id": "agent-public", "titre": "Agent·e public·que" },
+      { "id": "elu", "titre": "Élu·e" }
+    ]
+  },
+  {
+    "id": "collectifs",
+    "nom": "Collectifs",
+    "types": [
+      { "id": "collectif", "titre": "Collectif" },
+      { "id": "collectif-militant", "titre": "Collectif militant" },
+      { "id": "collectif-habitants", "titre": "Collectif d'habitants" },
+      { "id": "conseil-quartier", "titre": "Conseil de quartier, conseil citoyen" },
+      { "id": "communaute-en-ligne", "titre": "Communauté en ligne" },
+      { "id": "tiers-lieu", "titre": "Tiers-lieu" },
+      { "id": "reseau", "titre": "Réseau, fédération" },
+      { "id": "syndicat", "titre": "Syndicat" },
+      { "id": "groupement-employeurs", "titre": "Groupement d'employeurs" },
+      { "id": "communaute-pratique", "titre": "Communauté de pratique" }
+    ]
+  },
+  {
+    "id": "ess",
+    "nom": "Associations et économie sociale et solidaire",
+    "types": [
+      { "id": "association-locale", "titre": "Association locale" },
+      { "id": "association-nationale", "titre": "Association nationale" },
+      { "id": "ong", "titre": "ONG" },
+      { "id": "fondation", "titre": "Fondation" },
+      { "id": "fonds-dotation", "titre": "Fonds de dotation" },
+      { "id": "scop", "titre": "SCOP" },
+      { "id": "scic", "titre": "SCIC" },
+      { "id": "cae", "titre": "Coopérative d'activité et d'emploi" },
+      { "id": "cooperative-usagers", "titre": "Coopérative d'usagers" },
+      { "id": "mutuelle", "titre": "Mutuelle" },
+      { "id": "siae", "titre": "Structure d'insertion par l'activité économique" },
+      { "id": "entreprise-adaptee", "titre": "Entreprise adaptée" },
+      { "id": "esus", "titre": "Entreprise de l'ESS agréée ESUS" }
+    ]
+  },
+  {
+    "id": "entreprises",
+    "nom": "Entreprises",
+    "types": [
+      { "id": "micro-entreprise", "titre": "Micro-entreprise" },
+      { "id": "tpe", "titre": "TPE" },
+      { "id": "pme", "titre": "PME" },
+      { "id": "eti", "titre": "ETI" },
+      { "id": "grande-entreprise", "titre": "Grande entreprise" },
+      { "id": "start-up", "titre": "Start-up" },
+      { "id": "entreprise-mission", "titre": "Entreprise à mission" },
+      { "id": "commerce-proximite", "titre": "Commerce de proximité" },
+      { "id": "exploitation-agricole", "titre": "Exploitation agricole" },
+      { "id": "chambre-consulaire", "titre": "Chambre consulaire (CCI, CMA, agriculture)" },
+      { "id": "federation-pro", "titre": "Fédération professionnelle" },
+      { "id": "cluster", "titre": "Pôle de compétitivité, cluster" }
+    ]
+  },
+  {
+    "id": "public",
+    "nom": "Acteurs publics",
+    "types": [
+      { "id": "commune", "titre": "Commune" },
+      { "id": "intercommunalite", "titre": "Intercommunalité" },
+      { "id": "departement", "titre": "Département" },
+      { "id": "region", "titre": "Région" },
+      { "id": "etat", "titre": "État, services déconcentrés" },
+      { "id": "etablissement-public", "titre": "Établissement public" },
+      { "id": "agence-publique", "titre": "Agence publique" },
+      { "id": "bailleur-social", "titre": "Bailleur social" },
+      { "id": "etablissement-scolaire", "titre": "École, collège, lycée" },
+      { "id": "universite", "titre": "Université" },
+      { "id": "recherche", "titre": "Organisme de recherche" },
+      { "id": "sante", "titre": "Hôpital, établissement de santé" },
+      { "id": "medico-social", "titre": "Établissement médico-social" },
+      { "id": "culture-publique", "titre": "Établissement culturel public" },
+      { "id": "emploi-public", "titre": "Service public de l'emploi" }
+    ]
+  },
+  {
+    "id": "financeurs",
+    "nom": "Financeurs",
+    "types": [
+      { "id": "banque", "titre": "Banque" },
+      { "id": "banque-cooperative", "titre": "Banque coopérative" },
+      { "id": "investisseur-solidaire", "titre": "Investisseur solidaire" },
+      { "id": "business-angel", "titre": "Business angel" },
+      { "id": "financement-participatif", "titre": "Plateforme de financement participatif" },
+      { "id": "mecene", "titre": "Mécène" },
+      { "id": "fondation-entreprise", "titre": "Fondation d'entreprise" }
+    ]
+  },
+  {
+    "id": "relais",
+    "nom": "Médias et relais",
+    "types": [
+      { "id": "media-local", "titre": "Média local" },
+      { "id": "media-national", "titre": "Média national" },
+      { "id": "relais-opinion", "titre": "Influenceur·se, relais d'opinion" },
+      { "id": "autre", "titre": "Autre (à nommer)" }
+    ]
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "types": {
+    "Clarification": "Remettre les idées à plat, reformuler, nommer ce qui est flou",
+    "Diagnostic": "Aller chercher ce qui n'est pas dit, explorer les zones d'ombre",
+    "Alignement": "Mettre les acteurs en conversation, construire un accord réel",
+    "Recadrage": "Modifier le périmètre, la forme ou les conditions du projet",
+    "Report": "Suspendre le lancement jusqu'à ce que les conditions soient réunies"
+  },
+  "categories": [
+    {
+      "id": "intention",
+      "nom": "Intention",
+      "signaux": [
+        "On verra ce que ça donne",
+        "C'est encore flou mais on y va",
+        "Ça dépend de comment les autres réagissent"
+      ],
+      "alertes": [
+        { "signal": "L'intention est floue ou changeante", "pourquoi": "Tout le reste vacille si le pourquoi n'est pas stable", "action": "Reprendre la question de départ : « Quelle transformation cherche-t-on réellement à provoquer ? »", "type": "Clarification" },
+        { "signal": "L'intention est portée par une seule personne", "pourquoi": "Fragilité si cette personne disparaît ou change d'avis", "action": "Partager et valider l'intention avec au moins un autre acteur clé", "type": "Alignement" },
+        { "signal": "L'intention répond à une pression externe plutôt qu'à une conviction", "pourquoi": "La convention risque d'être abandonnée dès que la pression retombe", "action": "Nommer explicitement la pression, décider si elle est suffisante pour lancer", "type": "Diagnostic" }
+      ]
+    },
+    {
+      "id": "temporalite",
+      "nom": "Temporalité",
+      "signaux": [
+        "C'est pas le meilleur moment mais on n'a pas le choix",
+        "On avait prévu ça pour avant",
+        "Tout le monde est débordé là"
+      ],
+      "alertes": [
+        { "signal": "Tous les acteurs sont en surcharge", "pourquoi": "Aucun espace mental pour construire une réciprocité sérieuse", "action": "Reporter à une fenêtre identifiée, noter la date dans le log", "type": "Report" },
+        { "signal": "Le momentum relationnel est froid ou tendu", "pourquoi": "Lancer une convention dans ce contexte amplifie les tensions", "action": "Travailler le lien informellement avant de proposer quoi que ce soit", "type": "Alignement" },
+        { "signal": "Un précédent d'échec récent pèse sur le projet", "pourquoi": "La méfiance est latente et non dite", "action": "Nommer l'échec passé explicitement, montrer en quoi ce projet est structurellement différent", "type": "Diagnostic" },
+        { "signal": "Les horizons temporels des acteurs sont incompatibles", "pourquoi": "Les engagements ne tiendront pas dans la durée", "action": "Séquencer les engagements, proposer un premier horizon court partagé", "type": "Recadrage" }
+      ]
+    },
+    {
+      "id": "priorisation",
+      "nom": "Priorisation",
+      "signaux": [
+        "C'est important mais pas urgent",
+        "On verra ça plus tard",
+        "Les autres ont d'autres priorités"
+      ],
+      "alertes": [
+        { "signal": "La réciprocité est perçue comme secondaire par les acteurs", "pourquoi": "Elle sera sacrifiée dès qu'une urgence apparaît", "action": "Reframer le projet pour qu'il serve un objectif déjà prioritaire pour les acteurs", "type": "Recadrage" },
+        { "signal": "Aucun porteur légitime et motivé n'est identifié", "pourquoi": "Sans porteur, rien ne tient dans la durée", "action": "Désigner explicitement un porteur, même temporaire et partiel", "type": "Recadrage" },
+        { "signal": "Les décideurs ne sont pas impliqués", "pourquoi": "Les engagements pris ne seront pas honorés", "action": "Créer un moment de décision explicite, même informel, avec les décideurs concernés", "type": "Alignement" },
+        { "signal": "L'adhésion des acteurs est de façade", "pourquoi": "La convention sera signée mais pas vécue", "action": "Travailler les intérêts individuels avant de parler de convention collective", "type": "Diagnostic" }
+      ]
+    },
+    {
+      "id": "structure",
+      "nom": "Structure",
+      "signaux": [
+        "On s'organise au fur et à mesure",
+        "Il n'y a pas vraiment de responsable",
+        "On n'a pas de budget fléché"
+      ],
+      "alertes": [
+        { "signal": "Aucun espace de travail commun n'existe", "pourquoi": "Pas de lieu pour faire vivre la réciprocité", "action": "Créer un espace minimal avant de lancer : réunion récurrente, outil partagé", "type": "Recadrage" },
+        { "signal": "Les rôles ne sont pas clairs", "pourquoi": "Les responsabilités se diluent, personne ne tient le cadre", "action": "Produire un tableau simple de responsabilités avant tout engagement", "type": "Clarification" },
+        { "signal": "Aucune ressource n'est fléchée", "pourquoi": "La réciprocité repose sur la bonne volonté, pas sur une réalité organisationnelle", "action": "Flécher a minima du temps humain, même symboliquement", "type": "Recadrage" },
+        { "signal": "Aucun mécanisme de résolution des conflits n'est prévu", "pourquoi": "Le premier désaccord peut tout bloquer", "action": "Nommer à l'avance qui tranche si ça coince", "type": "Clarification" }
+      ]
+    },
+    {
+      "id": "relationnel",
+      "nom": "Relationnel",
+      "signaux": [
+        "Ils sont d'accord en principe",
+        "Il y a un historique compliqué mais ça devrait aller",
+        "On ne se connaît pas encore vraiment"
+      ],
+      "alertes": [
+        { "signal": "Les relations sont chargées d'un historique non dit", "pourquoi": "Les tensions ressurgissent au premier accroc", "action": "Créer un espace pour nommer ce qui pèse, avant d'entrer dans la convention", "type": "Diagnostic" },
+        { "signal": "Des asymétries de pouvoir fortes existent", "pourquoi": "La réciprocité sera déséquilibrée dès le départ", "action": "Cartographier les asymétries, ajuster le cadre de la convention en conséquence", "type": "Diagnostic" },
+        { "signal": "Les acteurs ne se connaissent pas encore", "pourquoi": "Pas de confiance minimale pour s'engager", "action": "Prévoir une ou plusieurs rencontres informelles avant de formaliser quoi que ce soit", "type": "Alignement" },
+        { "signal": "Un accord de façade masque un désaccord réel", "pourquoi": "La convention sera fragile et explosive", "action": "Créer les conditions d'une conversation franche sur les désaccords réels", "type": "Diagnostic" }
+      ]
+    },
+    {
+      "id": "conjoncture",
+      "nom": "Conjoncture",
+      "signaux": [
+        "Ça dépend de la direction",
+        "On attend les arbitrages politiques",
+        "Le contexte est un peu tendu en ce moment"
+      ],
+      "alertes": [
+        { "signal": "Instabilité politique ou institutionnelle forte", "pourquoi": "Les arbitrages peuvent tout changer du jour au lendemain", "action": "Construire une version du projet résistante aux changements de cap, intégrer une clause d'adaptation", "type": "Recadrage" },
+        { "signal": "Une réforme ou une loi en cours peut modifier le cadre", "pourquoi": "La convention peut être caduque avant même d'être signée", "action": "Attendre la stabilisation ou intégrer des scénarios d'adaptation explicites", "type": "Report" },
+        { "signal": "Des rapports de force externes bloquants sont actifs", "pourquoi": "Ils vont s'inviter dans la dynamique interne", "action": "Cartographier les tensions externes, travailler les alliances avant de lancer", "type": "Diagnostic" },
+        { "signal": "Le sujet est sensible ou instrumentalisé médiatiquement", "pourquoi": "La visibilité du projet peut devenir un risque", "action": "Gérer la communication en amont, choisir le bon moment pour rendre le projet visible", "type": "Clarification" }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "nom": "Capacité d'orchestration",
+      "signaux": [
+        "Je gère mais c'est beaucoup",
+        "Je ne suis pas sûr de savoir comment faire",
+        "Je n'ai personne pour m'appuyer"
+      ],
+      "alertes": [
+        { "signal": "Le relieur est seul, sans appui", "pourquoi": "Le pilotage repose sur une seule personne, fragilité maximale", "action": "Identifier au moins un appui, même ponctuel", "type": "Alignement" },
+        { "signal": "Les compétences clés manquent", "pourquoi": "Certaines dimensions du projet ne seront pas tenues", "action": "Nommer les manques explicitement, trouver un renfort ciblé", "type": "Recadrage" },
+        { "signal": "Le relieur est lui-même en surcharge", "pourquoi": "Il ne peut pas orchestrer ce qu'il ne peut pas habiter", "action": "Reporter ou réduire le périmètre du projet", "type": "Report" },
+        { "signal": "La légitimité du relieur est fragile auprès des acteurs", "pourquoi": "Les engagements qu'il porte ne seront pas reconnus", "action": "Travailler la légitimité en amont : appuis, mandats, reconnaissance formelle", "type": "Alignement" }
+      ]
+    },
+    {
+      "id": "juridique",
+      "nom": "Cadre juridique",
+      "signaux": [
+        "On verra la forme plus tard",
+        "Un mail ça suffit non ?",
+        "On préfère rester informel pour l'instant"
+      ],
+      "alertes": [
+        { "signal": "Le niveau de formalisation n'est pas discuté", "pourquoi": "Des attentes implicites divergentes vont créer des conflits", "action": "Ouvrir explicitement la conversation sur ce que chacun entend par « engagement »", "type": "Clarification" },
+        { "signal": "Les acteurs veulent rester informels par inconfort", "pourquoi": "L'informel masque souvent une réticence à s'engager vraiment", "action": "Explorer les raisons de la réticence avant de décider du niveau de formalisation", "type": "Diagnostic" },
+        { "signal": "Des dépendances juridiques externes existent", "pourquoi": "La convention peut être bloquée ou invalidée par un tiers", "action": "Identifier les dépendances, obtenir des engagements formels des tiers concernés", "type": "Recadrage" },
+        { "signal": "Aucune procédure de sortie n'est prévue", "pourquoi": "La convention devient un piège si une partie veut partir", "action": "Intégrer une clause de sortie claire dès la conception", "type": "Clarification" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "complexite": {
+    "titre": "Ce que ça pèse",
+    "sous": "ce qui vient de la situation",
+    "criteres": [
+      { "id": "cx-acteurs", "libelle": "Le nombre d'acteurs à embarquer", "niveaux": { "faible": "2 acteurs", "moyenne": "3 à 5 acteurs", "forte": "6 acteurs ou plus" } },
+      { "id": "cx-mondes", "libelle": "La distance entre leurs mondes", "niveaux": { "faible": "Profils similaires", "moyenne": "Profils différents", "forte": "Mondes sociaux distincts" } },
+      { "id": "cx-interets", "libelle": "L'écart entre leurs intérêts", "niveaux": { "faible": "Majoritairement alignés", "moyenne": "Partiellement divergents", "forte": "Structurellement divergents" } },
+      { "id": "cx-echanges", "libelle": "L'enchevêtrement des échanges", "niveaux": { "faible": "Simples, bilatéraux", "moyenne": "Multiples, interdépendants", "forte": "Enchevêtrés, non symétriques" } },
+      { "id": "cx-enjeux", "libelle": "Le poids des enjeux juridiques ou politiques", "niveaux": { "faible": "Absents", "moyenne": "Présents mais contenus", "forte": "Structurants" } },
+      { "id": "cx-horizon", "libelle": "L'étendue de l'horizon temporel", "niveaux": { "faible": "Court terme", "moyenne": "Moyen terme", "forte": "Long terme, ouvert" } },
+      { "id": "cx-retour", "libelle": "La difficulté à faire marche arrière", "niveaux": { "faible": "Marche arrière facile", "moyenne": "Marche arrière partielle", "forte": "Marche arrière coûteuse" } }
+    ]
+  },
+  "capacite": {
+    "titre": "Ce qu'on peut porter",
+    "sous": "ce qui vient de nous",
+    "criteres": [
+      { "id": "cap-temps", "libelle": "Le temps qu'on peut réellement y consacrer", "niveaux": { "faible": "Marginal", "moyenne": "Identifié mais contraint", "forte": "Alloué durablement" } },
+      { "id": "cap-legitimite", "libelle": "La légitimité reconnue au porteur", "niveaux": { "faible": "Fragile", "moyenne": "Reconnue localement", "forte": "Reconnue transversalement" } },
+      { "id": "cap-competences", "libelle": "Les compétences clés déjà là", "niveaux": { "faible": "Manquantes", "moyenne": "Partiellement présentes", "forte": "Maîtrisées" } },
+      { "id": "cap-pilotage", "libelle": "La capacité à piloter et à trancher", "niveaux": { "faible": "Absente, forte dépendance", "moyenne": "Réactive, arbitrages partagés", "forte": "Structurée, arbitrage clair" } },
+      { "id": "cap-ressources", "libelle": "Les ressources qu'on peut mobiliser", "niveaux": { "faible": "Faibles", "moyenne": "Activables", "forte": "Sécurisées" } },
+      { "id": "cap-resilience", "libelle": "La résilience face à l'imprévu", "niveaux": { "faible": "Faible", "moyenne": "Adaptation possible", "forte": "Absorption maîtrisée" } },
+      { "id": "cap-continuite", "libelle": "La continuité au-delà des personnes", "niveaux": { "faible": "Projet fragile", "moyenne": "Dépend du contexte", "forte": "Indépendante des individus" } }
+    ]
+  }
+}

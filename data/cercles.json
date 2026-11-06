@@ -1,0 +1,7 @@
+[
+  { "id": "structure", "nom": "Même structure", "aide": "Dans votre équipe, votre organisation" },
+  { "id": "local", "nom": "Local", "aide": "Quartier, commune" },
+  { "id": "territorial", "nom": "Territorial", "aide": "Intercommunalité, département" },
+  { "id": "regional", "nom": "Régional", "aide": "Région, bassin de vie élargi" },
+  { "id": "national", "nom": "National et au-delà", "aide": "Pays, international" }
+]

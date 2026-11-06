@@ -1,0 +1,12 @@
+[
+  { "id": "confiance", "niveau": 1, "titre": "Instaurer la confiance", "texte": "Développer un climat sûr pour collaborer efficacement, réduire les malentendus et faciliter les échanges futurs." },
+  { "id": "reconnaitre", "niveau": 1, "titre": "Reconnaître l'engagement", "texte": "Motiver les acteurs et légitimer leur contribution en donnant visibilité et crédit à leurs efforts." },
+  { "id": "liens", "niveau": 1, "titre": "Tisser des liens", "texte": "Renforcer les réseaux, la solidarité et la coopération sur le long terme." },
+  { "id": "ressources", "niveau": 2, "titre": "Échanger ressources et compétences", "texte": "Optimiser l'utilisation des savoir-faire, outils, temps ou réseaux disponibles pour créer de la valeur collective." },
+  { "id": "savoirs", "niveau": 2, "titre": "Mutualiser les savoirs", "texte": "Capitaliser sur les expériences passées et faciliter l'apprentissage collectif." },
+  { "id": "but-commun", "niveau": 2, "titre": "Coopérer vers un but commun", "texte": "Assurer que tous les acteurs travaillent dans la même direction pour maximiser l'impact et l'efficacité du projet." },
+  { "id": "honorer", "niveau": 3, "titre": "Honorer un engagement", "texte": "S'assurer que les engagements formels ou informels sont respectés et que la coopération est légitime." },
+  { "id": "securiser", "niveau": 3, "titre": "Sécuriser le projet", "texte": "Partager responsabilités et informations pour diminuer les incertitudes et protéger les parties prenantes." },
+  { "id": "inclure", "niveau": 4, "titre": "Inclure et faire participer", "texte": "Impliquer activement toutes les parties concernées, renforcer le sentiment d'appartenance et diversifier les perspectives." },
+  { "id": "projets", "niveau": 4, "titre": "Faire émerger des projets collectifs", "texte": "Favoriser l'émergence d'idées nouvelles et d'initiatives que personne ne pourrait réaliser seul." }
+]

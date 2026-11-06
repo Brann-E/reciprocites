@@ -1,0 +1,52 @@
+:root {
+  --ink: #0b0d10;
+  --paper: #f2f2f0;
+  --muted: #b0b6c0;
+  --faint: #242932;
+  --surface: #10141a;
+  --surface-2: #161b23;
+
+  --lvl-1: #2fffb4;
+  --lvl-2: #ffea4d;
+  --lvl-3: #ff9f45;
+  --lvl-4: #f9566a;
+  --alerte: #f968a7;
+
+  --ff-serif: "Instrument Serif", Georgia, serif;
+  --ff-sans: "Inter", system-ui, sans-serif;
+
+  --fs-xs: 0.8rem;
+  --fs-sm: 0.9rem;
+  --fs-base: 1rem;
+  --fs-md: 1.2rem;
+  --fs-lg: 1.6rem;
+  --fs-xl: 2.4rem;
+
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+
+  --r-1: 0.3rem;
+  --r-2: 0.5rem;
+  --bw: 1px;
+  --bw-niveau: 2px;
+  --bw-cible: 3px;
+  --ls-label: 0.14em;
+  --dur: 0.18s;
+  --lh-serre: 1.2;
+  --lh-corps: 1.45;
+  --mix-actif: 14%;
+
+  --mix-echo: 22%;
+  --dur-echo: 0.9s;
+  --opacite-provisoire: 0.45;
+  --tirets: 2 3;
+  --bw-halo: 4px;
+  --w-mini-etiquette: 7rem;
+  --w-boussole: 22rem;
+  --w-boussole-compacte: 16rem;
+  --h-palette: 34rem;
+}

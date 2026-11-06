@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dimensionner - Réciprocités</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/dimensionnement.css">
+</head>
+<body>
+
+<header class="bandeau">
+  <span class="marque">Réciprocités</span>
+  <h1>Dimensionner</h1>
+  <p class="sous">À quelle hauteur ce projet peut-il se tenir aujourd'hui&#8239;?</p>
+  <nav class="etapes" id="etapes" aria-label="Étapes"></nav>
+  <div class="outils">
+    <span>Rien ne quitte votre navigateur.</span>
+    <button type="button" id="effacer">Tout effacer</button>
+  </div>
+</header>
+
+<main class="ecran">
+  <form class="saisie" id="saisie" autocomplete="off"></form>
+  <aside class="lecture" id="lecture" aria-live="polite"></aside>
+</main>
+
+<noscript><p class="avis">Cet écran a besoin de JavaScript pour fonctionner.</p></noscript>
+<script type="module" src="js/dimensionnement.js"></script>
+</body>
+</html>

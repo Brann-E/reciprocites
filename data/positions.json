@@ -1,0 +1,87 @@
+{
+  "matrice": {
+    "faible": { "faible": "exister", "moyenne": "exister", "forte": "exister" },
+    "moyenne": { "faible": "recadrer", "moyenne": "phaser", "forte": "structurer" },
+    "forte": { "faible": "recadrer", "moyenne": "phaser", "forte": "architecturer" }
+  },
+  "sourcees": [
+    ["faible", "faible"],
+    ["moyenne", "moyenne"],
+    ["moyenne", "forte"],
+    ["forte", "faible"],
+    ["forte", "forte"]
+  ],
+  "positions": {
+    "exister": {
+      "nom": "Exister simplement",
+      "texte": "Quand la complexité est faible et qu'on a de quoi la porter largement. Rien à alourdir : on avance à vue, on récolte vite, on garde le geste léger.",
+      "demarches": [
+        "Définir un périmètre minimal de réciprocité, simple et clair.",
+        "Limiter le nombre d'acteurs et d'échanges à l'essentiel.",
+        "Prioriser la lisibilité et la simplicité plutôt que l'ambition.",
+        "S'assurer que les indicateurs de réussite sont observables rapidement.",
+        "Produire une convention courte et facile à suivre."
+      ]
+    },
+    "phaser": {
+      "nom": "Phaser",
+      "texte": "Quand la complexité monte mais que la capacité suit à peu près. On n'engage pas tout d'un coup : on découpe en jalons, on teste, on ajuste à chaque boucle avant d'aller plus loin.",
+      "demarches": [
+        "Identifier des sous-ensembles de réciprocité à tester ou déployer progressivement.",
+        "Définir des jalons, phases ou boucles expérimentales.",
+        "Vérifier régulièrement la cohérence et la faisabilité à chaque étape.",
+        "Ajuster les engagements et les responsabilités en fonction des retours.",
+        "Documenter les enseignements pour nourrir la phase suivante."
+      ]
+    },
+    "structurer": {
+      "nom": "Structurer",
+      "texte": "Quand la complexité est réelle et qu'on a les moyens d'y répondre. Le moment de poser le cadre : rôles clairs, responsabilités nommées, temporalités et repères fiables pour que ça tienne.",
+      "demarches": [
+        "Cartographier l'ensemble des acteurs et des échanges à consolider.",
+        "Définir un cadre clair : rôles, responsabilités, temporalités.",
+        "Produire un schéma ou une carte visuelle des réciprocités.",
+        "Mettre en place des indicateurs fiables et observables.",
+        "Assurer la robustesse des ressources et la continuité possible."
+      ]
+    },
+    "architecturer": {
+      "nom": "Architecturer",
+      "texte": "Quand la complexité est forte et la capacité solide. On ne pilote plus un projet mais un système : conventions multiples, engagements distribués, un pilotage explicite qui coordonne l'ensemble.",
+      "demarches": [
+        "Construire l'écosystème complet : conventions multiples, interdépendances, engagements distribués.",
+        "Définir un pilotage explicite et des boucles de suivi.",
+        "Prioriser la résilience et la capacité à absorber l'imprévu.",
+        "Formaliser des procédures, accords et protocoles adaptés aux enjeux.",
+        "Préparer la mise en partage et l'échelle du projet pour l'ensemble des réciprenants."
+      ]
+    },
+    "recadrer": {
+      "nom": "Recadrer",
+      "texte": "Quand la complexité dépasse ce qu'on peut porter aujourd'hui. Ce n'est pas un échec : c'est le signal qu'il faut réduire le périmètre, reporter, ou renforcer la capacité avant de relancer.",
+      "demarches": [
+        "Vérifier l'intention et la clarté du projet.",
+        "Identifier les points de blocage structurels ou relationnels.",
+        "Réduire le périmètre de la réciprocité ou reporter le lancement.",
+        "Renforcer les ressources (compétences, temps, légitimité) avant de relancer.",
+        "Documenter les risques et fragilités pour préparer un futur cadrage.",
+        "Mettre en place des avancées frugales (quick wins pour construire un maillage stratégique)."
+      ]
+    }
+  },
+  "croisement": {
+    "provisoire": true,
+    "defaut": "tient",
+    "regles": [
+      { "position": "recadrer", "niveau": [1, 1], "lecture": "perimetre" },
+      { "position": "recadrer", "niveau": [2, 4], "lecture": "descendre" },
+      { "position": "exister", "capacite": "forte", "niveau": [1, 3], "lecture": "monter" }
+    ],
+    "messages": {
+      "tient": { "etiquette": "Ça tient", "texte": "Rien ne s'oppose à cet objectif à cette hauteur. Vous pouvez avancer." },
+      "monter": { "etiquette": "Vous pouvez monter", "texte": "La situation est légère et vous avez de la marge. Vous pouvez viser un niveau au-dessus, si c'est ce que vous voulez." },
+      "descendre": { "etiquette": "Descendez d'un niveau", "texte": "Cet objectif demande plus que ce que la situation peut porter aujourd'hui. Descendez d'un niveau, ou réduisez le périmètre, avant de vous engager." },
+      "perimetre": { "etiquette": "Réduisez le périmètre", "texte": "Cet objectif est déjà au plus bas niveau. C'est le périmètre qu'il faut réduire, ou la capacité qu'il faut renforcer, avant de vous engager." }
+    }
+  }
+}

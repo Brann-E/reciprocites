@@ -1,0 +1,50 @@
+{
+  "titre": "Avant d'ouvrir la réciprocité, savoir ce qu'on orchestre",
+  "sous": "Clarifier sa propre intention, ses ressources et les limites du projet avant de mobiliser les autres.",
+  "groupes": [
+    {
+      "id": "nommer",
+      "titre": "Nommer",
+      "sous": "Un nom, c'est un acte : il rend le projet racontable.",
+      "questions": [
+        { "id": "nom", "libelle": "Nom du projet, de l'initiative", "aide": "Le nom de la réciprocité", "court": true }
+      ]
+    },
+    {
+      "id": "intention",
+      "titre": "L'intention",
+      "sous": "Si cette zone est floue, on s'arrête et on réfléchit !",
+      "questions": [
+        { "id": "intention", "libelle": "Intention principale", "aide": "Quelle transformation cherche-t-on réellement à provoquer ?" },
+        { "id": "vision", "libelle": "Vision pressentie de la réciprocité", "aide": "Qu'est-ce que l'on pressent possible comme échanges, coopérations, créations de valeur ?" }
+      ]
+    },
+    {
+      "id": "moyens",
+      "titre": "Les moyens",
+      "sous": "Ce qu'on peut soutenir dans la durée.",
+      "questions": [
+        { "id": "ressources", "libelle": "Ressources disponibles (maïeuticien, équipe)", "aide": "Temps, compétences, réseaux, expériences réellement mobilisables." },
+        { "id": "contraintes", "libelle": "Contraintes et alertes", "aide": "Limites, fragilités, risques connus, lignes rouges." }
+      ]
+    },
+    {
+      "id": "cadre",
+      "titre": "Le cadre",
+      "sous": "Ce qui permet de savoir si on avance dans le bon sens.",
+      "questions": [
+        { "id": "indicateurs", "libelle": "Indicateurs de réussite", "aide": "Quels signaux nous diront que la réciprocité fonctionne, évolue ou doit être réajustée ?" }
+      ]
+    }
+  ],
+  "objectif": {
+    "titre": "Ce que la réciprocité accomplira",
+    "sous": "Clarifier le pourquoi de chaque échange : ce que chacun y gagne, ce qu'elle fait avancer et comment elle nourrit la coopération."
+  },
+  "roles": [
+    { "id": "concerne", "titre": "Concerné", "aide": "Directement concerné par cet objectif" },
+    { "id": "contribue", "titre": "Contribue", "aide": "Pourrait contribuer" },
+    { "id": "beneficie", "titre": "Bénéficie", "aide": "Pourrait en bénéficier" },
+    { "id": "impacte", "titre": "Impacté", "aide": "Pourrait être impacté" }
+  ]
+}
